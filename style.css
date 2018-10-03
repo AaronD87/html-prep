@@ -1,0 +1,48 @@
+body {
+    background: #C69C72;
+    color: #7A7265;
+
+}
+
+.wrapper {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80vh;
+}
+
+h1, h3 {
+    color: #433E3F;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: flex;
+    margin: 30px 20px 0px 20px;
+}
+
+.latin {
+    text-indent: 50px;
+    font-size: 1.5em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#main-header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    color: #433E3F;
+}
